@@ -1,0 +1,21 @@
+div {
+    /* height and width */
+    height: 500px;
+
+    /* background color */
+    background-color: antiquewhite;
+    /* opacity */
+    opacity: 90%;
+    
+    /* background image */
+    /* load in an image from a source, place inside url() */
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg);
+    /* background size */
+    /* background-size: cover; */
+    background-size: contain;
+    /* background position */
+    background-position: center;
+    
+    /* background repeat */
+    background-repeat: no-repeat;
+} 

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to Own CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- form is block -->
+    <form style="border: solid blue 1px;padding: 20px;">
+        <!-- input are inline -->
+        
+        <!-- text input -->
+        <div>            
+            <input type="text" name="fname" id="fname" placeholder="first name" value="David">
+            <input type="text" name="lname" id="lname" placeholder="last name" value="Beckham">
+        </div>
+        <!-- email -->
+        <div>
+            <input type="email" name="email" id="email" placeholder="email e.g xyz@gmail.com">
+        </div>
+
+        <!-- password -->
+        <div>
+            <input type="password" name="password" id="password" placeholder="password">
+        </div>
+
+        <!-- radio -->
+        <div>
+            <input type="radio" name="gender" id="male" value="Male" checked> Male
+            <input type="radio" name="gender" id="female" value="Female"> Female
+        </div>
+
+        <!-- checkbox -->
+        <div>
+            <input type="checkbox" name="hobbies" id="cycling" value="cycling">Cycling
+            <input type="checkbox" name="hobbies" id="Dancing" value="Dancing">Dancing
+            <input type="checkbox" name="hobbies" id="Eating" value="Eating" checked>Eating
+        </div>
+
+        <!-- dropdown -->
+        <div>
+            <select name="nationality" id="nationality">
+                <option value="none">--Please select your country--</option>
+                <option value="Singaporean">Singaporean</option>
+                <option value="Malaysian">Malaysian</option>
+                <option value="Thai">Thai</option>
+            </select>
+        </div>
+
+        <!-- textbox - textarea -->
+        <div>
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Message"></textarea>
+        </div>
+        <!-- file upload -->
+        <div>
+            <input type="file" >
+        </div>
+        <div>
+            <input type="checkbox" name="accept" id="accept" value="accept" required> I understand the term and conditions
+        </div>
+        <!-- create submit buttons -->
+        <div>
+            <button class="btn btn-submit">Submit</button>
+            <input class="btn btn-send" type="submit" value="Send">
+            <!-- require styling -->
+            <a href="" class="btn btn-register">Register</a>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi nihil a non ex nobis corrupti laudantium, quo tempora repudiandae! Explicabo ad ex qui excepturi doloribus ipsum ea ipsam tenetur quis?
+        </div>
+        
+    </form>
+</body>
+</html>

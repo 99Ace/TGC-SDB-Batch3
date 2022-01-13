@@ -1,0 +1,40 @@
+/* Inline - by using the style attribute inside HTML elements */
+/* uses : debugging */
+
+/* Internal - by using a <style> element in the <head> section */
+/* uses: debugging or temporary */
+
+/* External - by using a <link> element to link to an external CSS file */
+/* uses: std practice */
+
+p { 
+    color:blue
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+    color:red !important;
+}
+
+
+

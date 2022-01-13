@@ -1,0 +1,26 @@
+/* margins */
+/* paddings */
+
+/* e.g 10px - applies to all sides */
+/* e.g 10px 20px - up/down left/right */
+
+.adj-padding {
+    border: solid black 1px;
+    /* 10px for all sides */
+    padding: 10px;
+    /* 10px for top/bottom 50px for left/right */
+    padding: 10px 50px;
+    /* 10px top, 50px l/r, 100px bottom */
+    padding: 10px 50px 100px;
+    /* TOP - RIGHT - BOTTOM - LEFT */
+    padding: 10px 100px 80px 80px;
+}
+/* margin affects outside the div */
+.box {
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
+
+    margin-top: 50px;
+    margin-left: 100px;
+}

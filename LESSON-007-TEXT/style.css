@@ -1,0 +1,28 @@
+h1 {
+    /* change text color */
+    /* color selection */
+    /* color:red */
+    /* color:rgb(110, 29, 114); */
+    color: rgba(0, 0, 0, 0.502);
+    /* color:#2596be; */
+
+    /* change text position */
+    text-align: end;
+
+    /* text-transform */
+    text-transform:capitalize;
+}
+a {
+    text-align: center;
+}
+h2 {
+    /* text-indent */
+    text-indent: 50px; 
+    /* 1 rem = 16px */
+
+    /* letter-spacing */
+    letter-spacing: 5px;
+
+    /* word spacing */
+    word-spacing: 10px;
+}

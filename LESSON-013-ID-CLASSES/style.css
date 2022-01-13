@@ -1,0 +1,15 @@
+/* Classes */
+/* it is reusable and can apply to many elements */
+.yellow {
+    color:rgb(191, 191, 57);
+}
+.green {
+    color: green;
+}
+
+/* IDs */
+/* it is used only once throughout the HTML */
+
+#red {
+    color: red;
+}

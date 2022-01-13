@@ -1,0 +1,12 @@
+h2 {
+    /* font-size */
+    font-size: 3rem;
+    /* font-family */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font weight - control the boldness */
+    font-weight: 300;
+    /* font style - controls italic */
+    font-style: italic;
+    /* font variant - Capitalise all letters, first letter in bigger font */
+    font-variant: small-caps;
+}
