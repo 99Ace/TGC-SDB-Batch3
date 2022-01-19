@@ -1,0 +1,10 @@
+#section-a, #section-b {
+    /* vh = view height, height of the device */
+    height: 100vh;
+}
+#section-a {
+    background-color: burlywood;
+}
+#section-b {
+    background-color: lightblue;
+}

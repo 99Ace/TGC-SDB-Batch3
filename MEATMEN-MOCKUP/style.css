@@ -1,0 +1,123 @@
+/* navbar settings */
+.nav {
+    display: flex;
+    padding: 10px 40px;
+    align-items: center;
+}
+.logo {
+    font-size:2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    /* border:1px solid black; */
+
+}
+.navlink {
+    margin-left: auto;
+}
+.navlink>ul {
+    /* border:1px solid black; */
+    margin: 0;
+    padding: 0;
+}
+.navlink>ul>li {
+    display: inline-block;
+}
+.navlink>ul>li>a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px;
+    display: block;
+    letter-spacing: 1px;
+    font-weight: 500;
+    /* border:1px solid black; */
+}
+.navlink>ul>li>a:hover {
+    border-bottom: 2px solid black;
+    /* text-decoration: underline black; */
+}
+.search>i {
+    color: rgb(247, 86, 0);
+    font-size: 1.4rem;
+    margin-left: 20px;
+    /* border:1px solid black; */
+}
+
+/* main image */
+#main-image {
+    height: 280px;
+    background-color: blanchedalmond;
+    background-image: url(https://cdn.cdnparenting.com/articles/2019/03/08160733/1303623835-H-1024x700.webp);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#main-image h1 {
+    margin: 0;
+}
+.main-search {
+    display: flex;
+    background-color: blanchedalmond;
+}
+.main-search>input {
+    flex: 1;
+}
+.main-search>button {
+    font-size: 1.3rem;
+    padding: 4px 6px;
+    color:white;
+    background-color: rgb(247, 86, 0);
+    border: none;
+}
+
+/* editor's pick */
+#editor-picks h2{
+    text-align: center;
+}
+.listing-wrapper {
+    display: flex;
+    justify-content: space-around; 
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.listing-frame {
+    min-height: 400px;
+    width: 300px;
+    /* background-color: silver; */
+    /* border: 1px solid black; */
+
+    display: flex;
+    flex-direction: column;
+}
+/* used during setting up the flex */
+/* .list-img {
+    background-color: rgb(135, 57, 43);
+} */
+.list-img>img {
+    width: 100%;
+}
+.list-info {
+    /* background-color: turquoise; */
+    flex: 3;
+    padding: 10px;
+}
+.list-tags {
+    text-decoration: none;
+    border: 1px solid rgb(247, 86, 0);
+    color: rgb(247, 86, 0);
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 4px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.list-tags:hover {
+    color: white;
+    background-color: rgb(247, 86, 0);
+}

@@ -1,0 +1,53 @@
+#main {
+    height:500px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+
+    background-image: url(../images/dog-man.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.jumbotron {
+    width: 300px;
+    padding:10px;
+    background-color: white;
+}
+
+
+/* ipad setting */
+@media screen and (min-width:768px) {
+    body {
+        margin: 0;
+    }
+    #main {
+        height: 1000px;
+        justify-content: flex-end;
+        align-items: center;
+        background-position: 70%;
+    }
+    .jumbotron {
+        height: 80%;
+    }
+}
+
+/* laptop setting */
+@media screen and (min-width:1200px) {
+    body {
+        margin: 100px;
+    }
+    #main {
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 50px;
+        background-position: center;
+    }
+    .jumbotron {
+        height: 200px;
+        width:80%;
+    }
+}
+
+

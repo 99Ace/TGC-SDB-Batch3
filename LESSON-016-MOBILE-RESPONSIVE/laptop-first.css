@@ -1,0 +1,36 @@
+/* from 0-infinity */
+/* infinity to 0 */
+/* big devices : desktop and big laptops */
+body {
+    background-color: red;
+}
+
+/* small laptop */
+/* 0 - 1399px */
+@media screen and (max-width:1399px) {
+    body {
+        background-color: yellow;
+    }
+}
+/* ipad pro */
+/* 0-  1199px */
+@media screen and (max-width:1199px) {
+    body {
+        background-color: green;
+    }
+}
+/* ipad */
+/* 0-  991px */
+@media screen and (max-width:991px) {
+    body {
+        background-color: blue;
+    }
+}
+/* mobile */
+/* 0-  767px */
+@media screen and (max-width:767px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+
