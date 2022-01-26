@@ -1,0 +1,29 @@
+/* mobile */
+.bg-food {
+    background-image: url(../images/food.png);
+    background-size: cover;
+}
+.nav-link {
+    font-size: 1.4rem;
+}
+
+
+/* ipad */
+@media screen and (min-width:768px) {
+    
+}
+
+/* ipad pro*/
+@media screen and (min-width:992px) {
+    
+}
+
+/* laptop */
+@media screen and (min-width:1200px) {
+    
+}
+
+/* XXL */
+@media screen and (min-width:1400px) {
+    
+}
